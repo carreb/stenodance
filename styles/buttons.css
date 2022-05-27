@@ -1,0 +1,43 @@
+/* gradient animation from Manuel Pinto's codepen */
+/* https://codepen.io/P1N2O/pen/pyBNzX */
+/* you saved me a lot of time */
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5);
+    background-size: 400% 400%;
+    border: none;
+    border-radius: 0.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    z-index: 100;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.596);
+    animation: reverse-gradient 2s forwards cubic-bezier(0.07, 0.5, 0.2, 1);
+}
+
+button:hover {
+    animation: gradient 2s forwards cubic-bezier(0.07, 0.5, 0.2, 1);
+    cursor: pointer;
+    z-index: 100;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes reverse-gradient {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

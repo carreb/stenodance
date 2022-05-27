@@ -1,0 +1,15 @@
+@import "buttons.css";
+@import "homescreen.css";
+@import "mapdiv.css";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+body {
+    background-color: #1B1F2D;
+    overflow: hidden;
+}

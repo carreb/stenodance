@@ -1,0 +1,40 @@
+.titlebox {
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pocbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pocFlyUp 1s forwards;
+}
+
+.playbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: playFlyUp 1s forwards 400ms;
+}
+
+@keyframes pocFlyUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-500%);
+    }
+}
+
+@keyframes playFlyUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-750%);
+    }
+}
