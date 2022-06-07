@@ -25,7 +25,7 @@
     }
 
     100% {
-        transform: translateY(-500%);
+        transform: translateY(-740%);
     }
 }
 
@@ -35,6 +35,6 @@
     }
 
     100% {
-        transform: translateY(-750%);
+        transform: translateY(-1130%);
     }
 }
