@@ -1,0 +1,13 @@
+body {
+    background-color: #1B1F2D;
+    overflow: hidden;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.currentword {
+    color: lime
+}
