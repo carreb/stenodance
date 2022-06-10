@@ -6,8 +6,30 @@ body {
 h2 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .currentword {
     color: lime
+}
+
+#userinput {
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+    border: 4px solid #505b81;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #1B1F2D;
+    outline: none;
+    text-align: center;
+}
+
+#userinput:disabled
+{
+    opacity: .2;
+    color: #fff;
 }
