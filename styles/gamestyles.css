@@ -33,3 +33,8 @@ h2 {
     opacity: .2;
     color: #fff;
 }
+
+#healthbar {
+    display: block;
+    margin: 0 auto;
+}
