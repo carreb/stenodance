@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+body {
+    background-color: #1B1F2D;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    /* center the button */
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
